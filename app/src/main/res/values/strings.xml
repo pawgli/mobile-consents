@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MobileConsents</string>
+    <string name="appName">MobileConsents</string>
+
+    <string name="switchThemeLabel">Switch Theme</string>
 </resources>

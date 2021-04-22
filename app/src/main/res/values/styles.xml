@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PinkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/pinkRegular</item>
+        <item name="colorPrimaryDark">@color/pinkDark</item>
+        <item name="colorAccent">@color/pinkLight</item>
+        <item name="colorBright">@color/pingBright</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blueRegular</item>
+        <item name="colorPrimaryDark">@color/blueDark</item>
+        <item name="colorAccent">@color/blueLight</item>
+        <item name="colorBright">@color/blueBright</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorBackground</item>
+    </style>
+
+</resources>
