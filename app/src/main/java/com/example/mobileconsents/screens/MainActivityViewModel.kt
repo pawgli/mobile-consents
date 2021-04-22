@@ -1,4 +1,4 @@
-package com.example.mobileconsents
+package com.example.mobileconsents.screens
 
 import androidx.lifecycle.ViewModel
 import com.example.mobileconsents.utils.Event

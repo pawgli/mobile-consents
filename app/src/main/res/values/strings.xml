@@ -2,4 +2,16 @@
     <string name="appName">MobileConsents</string>
 
     <string name="switchThemeLabel">Switch Theme</string>
+    <string name="privacyPreferencesLabel">Privacy Preferences</string>
+    <string name="privacyCenterLabel">Privacy Center</string>
+    <string name="fetchConsentsLabel">Fetch Consents from server</string>
+    <string name="hideConsentsLabel">Hide Fetched Consents</string>
+    <string name="showConsentsLabel">Show Fetched Consents</string>
+    <string name="fetchingDataFailed">Fetching data failed</string>
+
+    <string name="itemIdLabel">Item ID:</string>
+    <string name="itemShortTextLabel">Short text:</string>
+    <string name="itemLongTextLabel">Long text:</string>
+    <string name="itemRequiredLabel">Required:</string>
+    <string name="itemTypeLabel">Type:</string>
 </resources>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="homeMargins">12dp</dimen>
+
+    <dimen name="listItemMargins">6dp</dimen>
+    <dimen name="listItemElevation">4dp</dimen>
+    <dimen name="progressBarPosition">40dp</dimen>
 </resources>

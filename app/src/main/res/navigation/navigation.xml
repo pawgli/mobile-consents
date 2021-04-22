@@ -8,6 +8,32 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.mobileconsents.screens.home.HomeFragment"
-        tools:layout="@layout/fragment_home"/>
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/openPrivacyCenter"
+            app:destination="@id/privacyCenterFragment"/>
+        <action
+            android:id="@+id/showPrivacyPreferencesDialog"
+            app:destination="@id/privacyPreferencesDialog"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/privacyCenterFragment"
+        android:name="com.example.mobileconsents.screens.privacy.PrivacyCenterFragment">
+    <argument
+        android:name="consentSolutionId"
+        app:argType="java.util.UUID"/>
+    </fragment>
+
+    <dialog
+        android:id="@+id/privacyPreferencesDialog"
+        android:name="com.example.mobileconsents.screens.privacy.PrivacyPreferencesDialogFragment">
+        <argument
+            android:name="consentSolutionId"
+            app:argType="java.util.UUID"/>
+        <action
+            android:id="@+id/openPrivacyCenter"
+            app:destination="@id/privacyCenterFragment"/>
+    </dialog>
 
 </navigation>

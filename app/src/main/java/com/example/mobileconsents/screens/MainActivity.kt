@@ -1,4 +1,4 @@
-package com.example.mobileconsents
+package com.example.mobileconsents.screens
 
 import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
@@ -8,8 +8,10 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import com.example.mobileconsents.R
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
